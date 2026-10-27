@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: #f1f5f9;
+    color: #0f172a;
+}
+
+.app {
+    width: min(600px, 100%);
+    margin: auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    color: #2563eb;
+}
+
+#pace-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    color: #0f172a;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+#result {
+    text-align: center;
+    background: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+}
+
+#pace {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+#saved-runs {
+    margin-top: 2rem;
+}
+
+#saved-run-list {
+    list-style: none;
+    padding: 0;
+}
+
+#saved-run-list li {
+    background: white;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    overflow-wrap: anywhere;
+}

@@ -1,0 +1,24 @@
+{
+
+  "name": "Pace Kalkulator",
+  "short_name": "Pace",
+  "description": "Zum Berechnen und Speichern der Laufpace",
+  "theme_color": "#2563eb",
+  "background_color": "#f1f5f9",
+  "display": "standalone",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "icons/128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+
+    {
+      "src": "icons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+ 
